@@ -1,0 +1,21 @@
+1. open terminal
+2. cd C:\Users\Seyed Barabadi\Downloads\Elastic\Company_names_elastic_search
+3. Create virtual env: python -m venv .venv
+4. activate it: .venv\Scripts\activate
+5. test flask: flask run
+6. Ctrl +c to quit flask and 
+pip install elasticsearch
+7. pip freeze > requirements.txt
+8. create a .env  file in which can be safely stored.
+ELASTIC_CLOUD_ID=
+ELASTIC_API_KEY=
+9. check the connection by runing these command
+type: python
+then: from search import Search
+es = Search()
+11. exit() 
+10. flask run
+
+
+
+
